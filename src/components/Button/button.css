@@ -1,0 +1,75 @@
+.btn {
+  cursor: pointer;
+  margin: 5px;
+  position: relative;
+  text-align: center;
+  background-color: #ffffff;
+  border-width: 1;
+}
+.navBtn {
+  width: 21px;
+  height: 21px;
+  border: none;
+  border-radius: 4px;
+}
+.btnCategory {
+  width: 70px;
+  height: 70px;
+  border-radius: 66px;
+  left: 32px;
+  border: 1px solid #c4c4c4;
+}
+.btnCategory .btn-text {
+  position: absolute;
+  top: 80px;
+  font-size: 12px;
+  left: 0;
+  right: 0;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  font-family: "Inder", sans-serif;
+}
+.btnSearchSuggestions {
+  width: 175px;
+  height: 53px;
+  border: 1px solid #cccccc;
+}
+.btnSearchSuggestions .btn-text {
+  width: 173px;
+  height: 35px;
+  font-family: "Inder", sans-serif;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: center;
+}
+
+.btnPay {
+  width: 360px;
+  height: 51.5px;
+  border-radius: 4px;
+  background-color: #12192c;
+}
+.btnPay .btn-text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+.btnLogin {
+  width: 160px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.btnLogin .btn-text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: #12192c;
+  justify-content: center;
+  align-items: center;
+}

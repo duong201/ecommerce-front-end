@@ -1,18 +1,22 @@
+/* Reset CSS */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+/* Basic styling */
 html {
   font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
 }
+
 body {
   width: 1200px;
   margin: 0 auto;
 }
 
-/* học lỏm trên gg */
+/* Block elements */
 article,
 aside,
 details,
@@ -26,11 +30,62 @@ nav,
 section {
   display: block;
 }
+
+/* Lists */
 ol,
 ul {
   list-style: none;
 }
+
+/* Tables */
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #343a40;
+  padding: 1rem;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+}
+
+.navbar ul li {
+  margin-right: 1rem;
+}
+
+.navbar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem; /* Spacing inside each item */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.navbar ul li a:hover {
+  background-color: #555e66; /* Background color on hover */
+}
+
+/* General container */
+.container {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Active state */
+.active {
+  background-color: lightgreen;
+}
+
+/* Inactive state */
+.inactive {
+  background-color: lightgray;
 }
